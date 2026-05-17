@@ -64,3 +64,54 @@ The project addresses several key questions, including:
 - Price Availability: The analysis revealed that over 77% of historical mission price data is missing. The project implements a unique "Price Availability Ratio" to track how reporting standards improved over the decades.
 
 - Launch Trends: Clear peaks in activity correspond with major historical milestones in space exploration.
+
+# Data Professional Survey Breakdown Project
+## Project Overview
+The goal of this project is to calculate the main metrics to show the basic information about the survey takers and find patterns.
+
+## Key Features
+### Data Cleaning & Preparation:
+Preprocessing of initial data and handling null values.
+
+### Creating new measures:
+Created new meausre "Average Salary" for Salary ranges
+
+
+## Technologies Used
+PowerBI, PowerQuery, Excel
+
+## Dataset
+
+The analysis is performed on the 'data_professional_survey.xlsx' dataset, which includes attributes such as:
+
+- Job Title: The professional role or employment status of the survey respondent (e.g., Data Scientist, Data Engineer, Data Analyst).
+
+- Country: The geographic location of the survey taker.
+
+- Programming Language: The favorite or primary programming language utilized by the professional.
+
+- Difficulty to Enter: The perceived level of entry barrier or complexity to break into a data role.
+
+- Age: The age of the survey respondent.
+
+- Work/Life Balance Happiness: A satisfaction rating scored from 0 to 10 evaluating the respondent's work/life balance.
+
+- Salary Happiness: A satisfaction rating scored from 0 to 10 evaluating the respondent's salary contentment.
+
+## Findings Summary
+
+![Dashboard Screenshot](Data_Professional_Survey_Breakdown_Project.png)
+
+- Total Sample Size: The survey aggregates responses from 630 data professionals globally.
+
+- Demographics: The average age of the survey participants is 29.87 years old, with the largest geographic representations coming from the United States, India, the United Kingdom, and Canada.
+
+- Role Representation: Data Scientists constitute the largest single group with 94 respondents, followed closely by Data Engineers (65) and Data Architects (64).
+
+- Tooling Preferences: Python reigns as the absolute favorite language in the data domain, vastly eclipsing alternatives such as R, C/C++, JavaScript, and Java.
+
+- Career Sentiments:
+
+-- The entry barrier into data is mostly described as a moderate challenge, with 42.7% of professionals finding it "Neither easy nor difficult".
+
+-- Professionals report higher satisfaction with their Work/Life Balance (averaging 5.74 / 10) compared to their overall Salary Happiness (averaging 4.27 / 10).
